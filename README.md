@@ -89,3 +89,24 @@ This notebook covers Python dictionaries, including:
 - Removing elements
 - Dictionary methods
 - Dictionary comprehension
+
+
+## Python Set
+
+This notebook covers the fundamentals of Python sets with practical examples.
+
+### Topics Covered
+
+- Set creation
+- Creating sets using `set()`
+- Adding elements using `add()` and `update()`
+- Removing elements using `remove()`, `discard()`, `pop()`, and `clear()`
+- Set indexing limitation
+- Set operations:
+  - Union
+  - Intersection
+  - Difference
+  - Symmetric Difference
+- Checking subsets using `issubset()`
+- Frozen sets
+- Frozen set operations
