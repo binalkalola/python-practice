@@ -46,3 +46,14 @@ Through this assignment, I learned to:
 
 ---
 ⭐ Feel free to explore the notebook and provide feedback!
+
+## Python Dictionary
+
+This notebook covers Python dictionaries, including:
+
+- Dictionary creation
+- Accessing dictionary elements
+- Adding and modifying elements
+- Removing elements
+- Dictionary methods
+- Dictionary comprehension
