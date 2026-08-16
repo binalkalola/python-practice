@@ -47,6 +47,38 @@ Through this assignment, I learned to:
 ---
 ⭐ Feel free to explore the notebook and provide feedback!
 
+
+## Python Tuple
+
+This notebook covers the fundamentals of Python tuples with practical examples.
+
+### Topics Covered
+
+- Creating tuples
+- Empty tuples
+- Tuples with different data types
+- Nested tuples
+- Single-element tuples
+- Accessing tuple elements
+- Positive and negative indexing
+- Accessing elements from nested tuples
+- Tuple slicing
+- Tuple immutability
+- Working with mutable elements inside a tuple
+- Tuple concatenation
+- Tuple repetition
+- Deleting tuples
+- `count()` method
+- `index()` method
+- Membership using `in`
+- Built-in functions:
+  - `len()`
+  - `sorted()`
+  - `max()`
+  - `min()`
+  - `sum()`
+
+
 ## Python Dictionary
 
 This notebook covers Python dictionaries, including:
