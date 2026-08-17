@@ -110,3 +110,96 @@ This notebook covers the fundamentals of Python sets with practical examples.
 - Checking subsets using `issubset()`
 - Frozen sets
 - Frozen set operations
+
+
+# Python Functions
+
+This notebook contains practical examples of Python built-in functions, functional programming functions, and user-defined functions.
+
+## 📚 Topics Covered
+
+### 1. Built-in Functions
+
+The notebook demonstrates the following Python built-in functions:
+
+* `abs()` – Find the absolute value of a number
+* `all()` – Check whether all elements in an iterable are truthy
+* `dir()` – Display the attributes and methods of an object
+* `divmod()` – Return quotient and remainder as a tuple
+* `enumerate()` – Iterate over a sequence with index and value
+* `isinstance()` – Check whether an object is an instance of a specific type
+
+### 2. Functional Programming Functions
+
+The notebook includes examples of:
+
+* `filter()` – Filter elements based on a condition
+* `map()` – Apply a function to each element
+* `reduce()` – Reduce multiple values to a single result
+
+The `map()` and `reduce()` examples also demonstrate traditional approaches for comparison.
+
+### 3. User-Defined Functions
+
+The notebook demonstrates how to create and use custom functions.
+
+Examples include:
+
+* Adding two numbers
+* Subtracting two numbers
+* Multiplying two numbers
+* Dividing two numbers
+* Calculating the product of two numbers
+
+### 4. Simple Calculator
+
+A simple calculator is implemented using user-defined functions.
+
+The calculator provides four options:
+
+```text
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+```
+
+It also handles division by zero using a condition inside the `division()` function.
+
+## 🛠️ Technologies Used
+
+* Python
+* Jupyter Notebook / Google Colab
+
+## 🎯 Learning Objectives
+
+After working through this notebook, you will be able to:
+
+* Understand commonly used Python built-in functions.
+* Use `enumerate()` to work with indexes and values.
+* Use `filter()` to select elements based on a condition.
+* Use `map()` to transform elements.
+* Use `reduce()` to combine multiple values into one result.
+* Create and call user-defined functions.
+* Build a simple calculator using functions.
+* Handle division-by-zero cases.
+
+## 📂 File Structure
+
+```text
+function_type.ipynb
+README.md
+```
+
+## ▶️ How to Run
+
+1. Clone or download this repository.
+2. Open `function_type.ipynb` using Jupyter Notebook or Google Colab.
+3. Run the cells from top to bottom.
+4. Experiment with the examples and change the input values.
+
+## 👩‍💻 Author
+
+**Binal Patel**
+
+This notebook is part of my Python learning and practice journey.
