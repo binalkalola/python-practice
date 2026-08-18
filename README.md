@@ -203,3 +203,62 @@ README.md
 **Binal Patel**
 
 This notebook is part of my Python learning and practice journey.
+
+
+
+Computational Complexity & Searching Algorithms
+
+This notebook contains Python practice examples to understand time complexity, space complexity, and searching algorithms.
+
+📌 Topics Covered
+1. Linear Search — O(n)
+
+Searches for an element by checking each element one by one.
+
+Time Complexity: O(n)
+Simple and works on unsorted lists.
+2. Binary Search — O(log n)
+
+Binary Search is used to search for an element efficiently in a sorted list.
+
+Two approaches are practiced:
+
+Recursive Binary Search
+Iterative Binary Search
+
+Time Complexity: O(log n)
+
+3. Finding Common Elements — O(n × m)
+
+A nested-loop approach is used to find common elements between two lists.
+
+Time Complexity: O(n × m)
+Uses no additional data structure for searching.
+4. Finding Common Elements Using a Hash Table
+
+A dictionary/hash table is used to improve the searching process.
+
+Time Complexity: O(n + m), approximately O(n) when m < n
+Space Complexity: O(m)
+Dictionary lookup takes approximately O(1) average time.
+🧠 Complexity Summary
+Algorithm / Approach	Time Complexity	Space Complexity
+Linear Search	O(n)	O(1)
+Binary Search	O(log n)	O(log n) for recursive version
+Common Elements using Nested Loops	O(n × m)	O(1)
+Common Elements using Hash Table	O(n + m)	O(m)
+🛠️ Technologies Used
+Python
+Jupyter Notebook
+Lists
+Loops
+Functions
+Dictionaries / Hash Tables
+Time & Space Complexity
+📂 Notebook
+
+computational_complexity.ipynb contains the complete Python implementations and practice examples.
+
+🎯 Learning Objective
+
+The main goal of this notebook is to understand how different algorithms perform as the input size increases and how choosing an appropriate data structure can improve algorithm efficiency.
