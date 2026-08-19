@@ -309,6 +309,67 @@ This notebook (`comments & double.ipynb`) covers some fundamental Python concept
 1. Open the notebook in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook.
 2. Run each cell sequentially to see the outputs.
 
+
+
+# Python OOPS Practice — Binal
+
+A Jupyter notebook of hands-on Python **Object-Oriented Programming (OOP)** exercises, covering the four pillars of OOP — Abstraction, Inheritance, Encapsulation, and Polymorphism — through three progressively built mini-projects.
+
+## 📘 What's Inside
+
+### 1. Library Book System
+A `Book` class that models a library book — storing data, tracking availability, and generating a formatted catalogue report.
+
+- **Exercise 1** — Core `Book` class: `__init__`, class variables (`library_name`, `count`), `checkout()`, `return_book()`, `__str__()`, and a standalone `print_catalogue(books)` function.
+- **Exercise 2** — Overdue Fines: adds a `days_overdue` parameter to `return_book()`, calculating a ₹2/day fine.
+- **Exercise 3** — Keyword Search: a standalone `search(books, keyword)` function for case-insensitive title search.
+- **Exercise 4** — Per-Book Checkout Count: tracks `checkout_count` as an instance variable, shown in the catalogue.
+- **Exercise 5** — `__repr__`: adds a REPL/list-friendly representation, plus an experiment with default constructor arguments (`year=2024`).
+
+### 2. Employee Management System
+Built using **all four pillars of OOP**:
+- Abstract base class `Employee` (`ABC`, `@abstractmethod`)
+- Subclasses `FullTimeEmployee`, `PartTimeEmployee`, `ContractEmployee` — each with its own `calculate_salary()` logic
+- Encapsulated `_salary` via `@property` / `@salary.setter` (prevents negative values)
+- Polymorphic `calculate_salary()` calls inside a shared `print_report()` function
+
+### 3. Vehicle Rental Management System
+A parallel exercise applying the same four pillars to a rental-fleet domain:
+- Abstract base class `Vehicle`
+- Subclasses `Car`, `Bike`, `Truck` — each with its own rent formula (`insurance_charge`, `helmet_charge`, `loading_charge`)
+- Encapsulated `_daily_rent` via `@property` / `@daily_rent.setter`
+- Standalone `print_report(vehicles, days)` for a formatted rental summary
+
+## 🧠 Concepts Covered
+
+- Classes & Objects
+- Constructors (`__init__`) and `self`
+- Instance variables vs. Class variables
+- Instance methods, `__str__()`, `__repr__()`
+- Default parameter values
+- Standalone functions operating on objects/lists of objects
+- Abstraction (`ABC`, `@abstractmethod`)
+- Inheritance (`super()`)
+- Encapsulation (protected attributes, `@property` / `@setter`)
+- Polymorphism (same method call, different behavior per subclass)
+
+## 🛠 Requirements
+
+- Python 3.x
+- Jupyter Notebook / JupyterLab, or Google Colab (no extra pip installs needed — only standard library `abc` module is used)
+
+## ▶️ How to Run
+
+1. Clone this repo / download the notebook.
+2. Open `Python_OOPS_Binal.ipynb` in Jupyter Notebook, JupyterLab, or upload it to Google Colab.
+3. Run cells top to bottom — each exercise's markdown cell explains the task, followed by the code cell with the implementation and its output.
+
+## 📂 File
+
+- `Python_OOPS_Binal.ipynb` — the full notebook with explanations, code, and outputs.
+
+---
+*Practice notebook for learning Python OOP fundamentals.*
 ## 📂 File
 
 - `comments & double.ipynb` – Main notebook with all code examples.
