@@ -275,3 +275,41 @@ The complete Python implementations and practice examples are available in:
 ## 🎯 Learning Objective
 
 The main goal of this notebook is to understand how different algorithms perform as the input size increases and how choosing an appropriate **algorithm and data structure** can improve efficiency.
+
+
+
+
+# Comments & Double – Python Basics
+
+This notebook (`comments & double.ipynb`) covers some fundamental Python concepts through simple, hands-on examples.
+
+## 📌 Topics Covered
+
+- **Single-line comments** using `#`
+- **Multi-line comments** using triple quotes (`'''...'''`)
+- **Functions & Docstrings** – writing a `double()` function with different logic, and using `__doc__` to access docstrings
+- **Loops** – iterating with `for` and `range()`
+- **Multiple statements** on a single line using `;`
+- **Line continuation** – splitting long expressions using `\` and parentheses `()`
+- **Basic arithmetic** – simple calculations like seconds in a day/week
+
+## 🧠 Key Examples
+
+| Concept | Example |
+|---|---|
+| Comment | `# This is a comment` |
+| Multiline comment | `'''multiline text'''` |
+| Function with docstring | `def double(x): """doc"""` |
+| Loop | `for i in range(12): print(i)` |
+| Multiple statements | `a=10; b=20; c=30` |
+| Line continuation | `a = 1+2+3+\` |
+
+## 🛠 How to Run
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook.
+2. Run each cell sequentially to see the outputs.
+
+## 📂 File
+
+- `comments & double.ipynb` – Main notebook with all code examples.
+
