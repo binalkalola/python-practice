@@ -309,9 +309,14 @@ This notebook (`comments & double.ipynb`) covers some fundamental Python concept
 1. Open the notebook in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook.
 2. Run each cell sequentially to see the outputs.
 
+## 📂 File
+
+- `comments & double.ipynb` – Main notebook with all code examples.
 
 
-# Python OOPS Practice — Binal
+
+
+# Python OOPS Practice 
 
 A Jupyter notebook of hands-on Python **Object-Oriented Programming (OOP)** exercises, covering the four pillars of OOP — Abstraction, Inheritance, Encapsulation, and Polymorphism — through three progressively built mini-projects.
 
@@ -370,7 +375,3 @@ A parallel exercise applying the same four pillars to a rental-fleet domain:
 
 ---
 *Practice notebook for learning Python OOP fundamentals.*
-## 📂 File
-
-- `comments & double.ipynb` – Main notebook with all code examples.
-
